@@ -229,7 +229,7 @@
     width: 190px;
     height: 230px;
     align-self: center;
-    order: -1;
+    order: 1;
   }
 
   .hero-content {
@@ -646,7 +646,7 @@
 .form-group textarea {
   width: 100%;
   padding: 14px 15px;
-  border: 1px solid var(--color-border);
+  border: 1px solid #D0D2CE;
   border-radius: 4px;
   background: #FAFAF8;
   color: var(--color-text);
