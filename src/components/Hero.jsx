@@ -1,3 +1,5 @@
+import profilePhoto from '../assets/profile.png'
+
 function Hero() {
   return (
     <section className="hero">
@@ -23,12 +25,13 @@ function Hero() {
           <a href="#projects" className="button-primary">
             Explore my work <span>↗</span>
           </a>
-
           <a href="#contact" className="button-secondary">
             Get in touch
           </a>
         </div>
-
+      </div>
+      <div className="hero-image">
+        <img src={profilePhoto} alt="Dimitrios Kakales" />
       </div>
     </section>
   )
