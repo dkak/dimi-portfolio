@@ -5,10 +5,20 @@ function About() {
 
         <div className="about-heading">
           <p className="section-label">ABOUT ME</p>
-          <h2>
-            Technology is more than code.
-            It's about solving problems.
+          <br></br>
+          <br></br>
+          <img
+            src="/about-photo.jpg"
+            alt="Dimitrios"
+            className="about-photo"
+          />
+          <br></br>
+          <h2 className="about-quote">
+            <span className="quote-mark">“</span>
+            I believe technology is more than code. It's about solving problems.
+            <span className="quote-mark closing">”</span>
           </h2>
+                    
         </div>
 
         <div className="about-description">
@@ -30,6 +40,20 @@ function About() {
             My approach combines technical thinking,
             continuous learning and an understanding
             of the business needs behind every solution.
+          </p>
+
+          <p>
+            I have experience in implementing Salesforce solutions
+            from my time working as a Salesforce Developer in
+            a consulting international environment. After that I have 
+            been working as an ERP/CRM consultant and experimented with
+            multiple technologies and platforms including Odoo.
+          </p>
+
+          <p>
+            Over the last year I have been also interested in learning more about Devops
+            and Cybersecurity deepening my knowledge in these areas and getting a more
+            holistic view of the software development lifecycle.
           </p>
         </div>
 

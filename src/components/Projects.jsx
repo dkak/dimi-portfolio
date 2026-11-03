@@ -2,27 +2,44 @@ function Projects() {
   const projects = [
     {
       number: '01',
-      category: 'SALESFORCE · DEVOPS',
-      title: 'Salesforce CI/CD Pipeline',
+      category: 'SALESFORCE · OMNISTUDIO',
+      title: 'Energy & Utilities Cloud (Omnistudio & Core Automation)',
       description:
-        'Automated Salesforce deployment workflow using GitHub Actions, Salesforce CLI and JWT authentication.',
-      technologies: ['Salesforce DX', 'GitHub Actions', 'Apex', 'JWT'],
+        'bla bla',
+      technologies: 
+      ['OmniStudio', 'OmniScripts', 'FlexCards', 'Integration Procedures', 
+        'Data Mappers', 'Apex Triggers', 'Batch Apex', 'Flows'],
     },
     {
       number: '02',
-      category: 'SALESFORCE · DEVELOPMENT',
-      title: 'Custom Salesforce Solutions',
+      category: 'SALESFORCE · AMAZON WEB SERVICES',
+      title: 'Salesforce Service Cloud Voice - Amazon Connect',
       description:
-        'Custom Salesforce development focused on business processes, automation and platform functionality.',
-      technologies: ['Apex', 'LWC', 'SOQL', 'Flows'],
+        'bla bla',
+      technologies: 
+      ['Amazon Connect','Salesforce Service Cloud Voice','Flow Builder',
+        'Salesforce CLI','Omnichannel','AWS IAM','AWS Lambda',
+        'Amazon Connect Flow'],
     },
     {
       number: '03',
-      category: 'WEB DEVELOPMENT',
-      title: 'Personal Portfolio Website',
+      category: 'SALESFORCE EMAIL SERVICE · CI/CD PIPELINE',
+      title: 'Salesforce Custom Inbound/Outbound Email Solution',
       description:
-        'A lightweight, responsive portfolio built to showcase software development skills and professional projects.',
-      technologies: ['React', 'Vite', 'JavaScript', 'CSS'],
+        'bla bla',
+      technologies: ['Apex Email Services', 'Email Headers', 'EML Parsing',
+        'Salesforce Metadata','LWC','Salesforce AppExchange','GitHub Actions',
+        'Git Version Control','Apex Tests','Salesforce Metadata'],
+    },
+    {
+      number: '04',
+      category: 'ODOO · DIGITAL TRANSFORMATION',
+      title: 'Odoo ERP Implementation & Digital Transformation',
+      description:
+        'bla bla',
+      technologies: ['Business Process Engineering',
+        'Point of Sale (POS) & Retail Cashier System', 'B2B Invoicing', 
+        'Inventory & Warehouse Operations','Website & eCommerce'],
     },
   ]
 

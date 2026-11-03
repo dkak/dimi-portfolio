@@ -153,11 +153,18 @@
     
 /* HERO PHOTO */
 
+.hero-section {
+  width: 100%;
+  background-color: #F2F2EF;
+}
+
 .hero {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .hero-content {
@@ -251,7 +258,7 @@
 /* ABOUT SECTION */
 
 .about {
-  background: #F2F2EF;
+  background: #FFFFFF;
   padding: 110px 40px;
 }
 
@@ -272,10 +279,11 @@
 }
 
 .about-heading h2 {
-  font-size: clamp(30px, 4vw, 42px);
+  font-size: clamp(15px, 4vw, 25px);
   line-height: 1.25;
   letter-spacing: -1.5px;
   font-weight: 600;
+  text-align: center;
 }
 
 .about-description {
@@ -304,100 +312,37 @@
   }
 }
 
-/* EXPERTISE SECTION */
-
-.expertise {
-  padding: 110px 40px;
+.about-photo {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 50%;
+  margin-top: 35px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border: 4px solid #E8E8E5;
 }
 
-.expertise-container {
-  max-width: 1120px;
-  margin: 0 auto;
-}
-
-.expertise-header {
-  max-width: 600px;
-  margin-bottom: 55px;
-}
-
-.expertise-header h2 {
-  font-size: clamp(30px, 4vw, 42px);
+.about-quote {
+  position: relative;
+  font-size: clamp(32px, 4vw, 46px);
+  line-height: 1.2;
+  font-weight: 500;
   letter-spacing: -1.5px;
-  font-weight: 600;
+  font-style: italic;
 }
 
-.expertise-header > p:last-child {
-  color: var(--color-muted);
-  font-size: 15px;
-  line-height: 1.8;
-  margin-top: 18px;
-}
-
-.expertise-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-}
-
-.expertise-card {
-  padding: 32px;
-  border: 1px solid var(--color-border);
-  background: #FFFFFF;
-  border-radius: 6px;
-  transition: border-color 0.2s ease;
-}
-
-.expertise-card:hover {
-  border-color: var(--color-accent);
-}
-
-.expertise-number {
+.quote-mark {
   color: var(--color-accent);
-  font-size: 12px;
-  font-weight: 600;
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-right: 8px;
 }
 
-.expertise-card h3 {
-  font-size: 19px;
-  font-weight: 600;
-  margin-top: 25px;
-}
-
-.expertise-card > p {
-  color: var(--color-muted);
-  font-size: 14px;
-  line-height: 1.8;
-  margin-top: 12px;
-  min-height: 75px;
-}
-
-.expertise-skills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-top: 22px;
-}
-
-.expertise-skills span {
-  padding: 7px 11px;
-  background: #F2F2EF;
-  border-radius: 3px;
-  font-size: 11px;
-  color: #454545;
-}
-
-@media (max-width: 768px) {
-  .expertise {
-    padding: 80px 20px;
-  }
-
-  .expertise-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .expertise-card > p {
-    min-height: auto;
-  }
+.quote-mark.closing {
+  margin-left: 5px;
 }
 
 /* PROJECTS SECTION */

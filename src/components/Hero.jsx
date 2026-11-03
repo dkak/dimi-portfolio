@@ -2,7 +2,8 @@ import profilePhoto from '../assets/profile.png'
 
 function Hero() {
   return (
-    <section className="hero">
+  <section className="hero-section">
+    <div className="hero">
       <div className="hero-content">
         
         <p className="hero-label">
@@ -33,7 +34,8 @@ function Hero() {
       <div className="hero-image">
         <img src={profilePhoto} alt="Dimitrios Kakales" />
       </div>
-    </section>
+    </div>
+  </section>
   )
 }
 

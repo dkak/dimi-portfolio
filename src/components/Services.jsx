@@ -10,7 +10,7 @@ function Services() {
       number: '02',
       title: 'Business Process Automation',
       description:
-        'Automating repetitive tasks and improving business workflows using Salesforce tools and custom logic.',
+        'Automating repetitive tasks and improving business workflows using tools and custom logic.',
     },
     {
       number: '03',
@@ -27,7 +27,7 @@ function Services() {
   ]
 
   return (
-    <section className="services">
+    <section id="services" className="services">
       <div className="services-container">
 
         <div className="services-header">
