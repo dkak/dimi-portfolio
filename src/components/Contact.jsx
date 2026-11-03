@@ -1,5 +1,6 @@
 
 import { useState } from 'react'
+import { FaLinkedin, FaGithub } from 'react-icons/fa'
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -137,11 +138,22 @@ function Contact() {
         </form>
 
         <div className="contact-socials">
-          <a href="https://www.linkedin.com/in/dkak" target="_blank" rel="noreferrer">
-            LinkedIn ↗
+          <a
+            href="https://www.linkedin.com/in/dkak"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+          >
+            <FaLinkedin />
           </a>
-          <a href="https://github.com/dkak" target="_blank" rel="noreferrer">
-            GitHub ↗
+
+          <a
+            href="https://github.com/dkak"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+          >
+            <FaGithub />
           </a>
         </div>
       </div>

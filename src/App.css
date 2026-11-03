@@ -702,18 +702,23 @@
 .contact-socials {
   display: flex;
   justify-content: center;
-  gap: 28px;
+  align-items: center;
+  gap: 24px;
   margin-top: 45px;
 }
 
 .contact-socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: var(--color-muted);
-  font-size: 13px;
-  transition: color 0.2s ease;
+  font-size: 24px;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
 .contact-socials a:hover {
-  color: var(--color-text);
+  color: var(--color-accent);
+  transform: translateY(-3px);
 }
 
 @media (max-width: 768px) {
