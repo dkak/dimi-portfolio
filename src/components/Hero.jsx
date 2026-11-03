@@ -1,10 +1,8 @@
-
-
 function Hero() {
   return (
     <section className="hero">
       <div className="hero-content">
-
+        
         <p className="hero-label">
           SALESFORCE DEVELOPER & TECHNOLOGY CONSULTANT
         </p>

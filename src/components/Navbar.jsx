@@ -1,7 +1,13 @@
+import profilePhoto from '../assets/profile.png'
+
 function Navbar() {
   return (
     <header className="navbar">
-      
+      <img
+          src={profilePhoto}
+          alt="Portrait"
+          className="navbar-photo"
+        />
       <a href="#" className="navbar-logo">
         Dimitris Kakales OR dimi<span>.</span>
       </a>

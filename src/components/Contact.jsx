@@ -137,10 +137,10 @@ function Contact() {
         </form>
 
         <div className="contact-socials">
-          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/in/dkak" target="_blank" rel="noreferrer">
             LinkedIn ↗
           </a>
-          <a href="https://github.com/" target="_blank" rel="noreferrer">
+          <a href="https://github.com/dkak" target="_blank" rel="noreferrer">
             GitHub ↗
           </a>
         </div>
