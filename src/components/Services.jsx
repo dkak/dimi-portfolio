@@ -4,25 +4,25 @@ function Services() {
       number: '01',
       title: 'Salesforce Development',
       description:
-        'Custom Apex development, Lightning Web Components and tailored Salesforce functionality.',
+        'Custom Salesforce development using Apex, Lightning Web Components, OmniStudio, Flows, and tailored business automation solutions.',
     },
     {
       number: '02',
-      title: 'Business Process Automation',
+      title: 'Development & Deployment',
       description:
-        'Automating repetitive tasks and improving business workflows using tools and custom logic.',
+        'Managing Salesforce development workflows through Git version control, CI/CD automation, automated validation, and structured deployment processes across environments.',
     },
     {
       number: '03',
-      title: 'Integrations & Custom Solutions',
+      title: 'Business Process Automation',
       description:
-        'Connecting systems, working with APIs and developing solutions that extend existing platforms.',
+        'Automating business processes and streamlining workflows through custom development, system configuration, and integrations.',
     },
     {
       number: '04',
-      title: 'Development & Deployment',
+      title: 'Integrations & Custom Solutions',
       description:
-        'Version control, CI/CD workflows and structured deployment processes for Salesforce projects.',
+        'Integrating systems through APIs, custom integrations, and data exchange solutions to connect platforms and extend their functionality.',
     },
   ]
 

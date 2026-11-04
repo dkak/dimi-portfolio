@@ -5,7 +5,7 @@ function Projects() {
       category: 'SALESFORCE · OMNISTUDIO',
       title: 'Energy & Utilities Cloud (Omnistudio & Core Automation)',
       description:
-        'bla bla',
+        'Development of Energy & Utilities Cloud solutions using primarily OmniStudio, complemented by custom Salesforce development, to support Order Management, Quote-to-Contract, and Customer Experience & OmniChannel Service processes.',
       technologies: 
       ['OmniStudio', 'OmniScripts', 'FlexCards', 'Integration Procedures', 
         'Data Mappers', 'Apex Triggers', 'Batch Apex', 'Flows'],
@@ -15,7 +15,7 @@ function Projects() {
       category: 'SALESFORCE · AMAZON WEB SERVICES',
       title: 'Salesforce Service Cloud Voice - Amazon Connect',
       description:
-        'bla bla',
+        'Integration of Salesforce Service Cloud Voice with Amazon Connect for a contact center supporting 170+ agents, including contact flow development and custom and standard AWS Lambda functions to enable seamless communication between platforms.',
       technologies: 
       ['Amazon Connect','Salesforce Service Cloud Voice','Flow Builder',
         'Salesforce CLI','Omnichannel','AWS IAM','AWS Lambda',
@@ -26,7 +26,7 @@ function Projects() {
       category: 'SALESFORCE EMAIL SERVICE · CI/CD PIPELINE',
       title: 'Salesforce Custom Inbound/Outbound Email Solution',
       description:
-        'bla bla',
+        'Development of a custom Salesforce solution for inbound and outbound PEC email handling, including Email-to-Case customization, PEC signature preservation & CI/CD pipeline implementation for automated validation and deployment.',
       technologies: ['Apex Email Services', 'Email Headers', 'EML Parsing',
         'Salesforce Metadata','LWC','Salesforce AppExchange','GitHub Actions',
         'Git Version Control','Apex Tests','Salesforce Metadata'],
@@ -36,7 +36,7 @@ function Projects() {
       category: 'ODOO · DIGITAL TRANSFORMATION',
       title: 'Odoo ERP Implementation & Digital Transformation',
       description:
-        'bla bla',
+        'Digital transformation of an electronics retail store through Odoo ERP implementation, configuring and integrating multiple modules to streamline sales, inventory, warehouse operations, invoicing, and eCommerce processes.',
       technologies: ['Business Process Engineering',
         'Point of Sale (POS) & Retail Cashier System', 'B2B Invoicing', 
         'Inventory & Warehouse Operations','Website & eCommerce'],
